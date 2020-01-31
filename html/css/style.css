@@ -1,0 +1,102 @@
+body {
+    background-color: transparent !important;
+}
+
+.template, .notification {
+    display: none;
+}
+
+
+
+.notif-container {
+    width: 20%;
+    position: absolute;
+   left: 20px;
+    top:500px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+ font-size: 14px;
+opacity:0.70;
+
+}
+
+
+
+.notification {
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    font: caption;
+    font-size: 11px;
+
+}
+
+.success {
+    background-color: rgb(67, 176, 55);
+    color: #fff;
+	    font-size: 16px;
+}
+
+.inform {
+   background-color: rgb(67, 176, 55);
+    color: #ffffff;
+}
+
+.error {
+    background: rgb(224, 50, 50);
+    color: #fff;
+}
+
+
+.cajaroja{
+    background-color: rgb(151, 74, 65);
+    color: #ffffff;
+opacity:0.95;
+}
+
+
+
+.cajaverde{
+    background-color: rgb(67, 176, 55);
+    color: #ffffff;
+opacity:0.95;
+}
+
+.cajanegra {
+background: rgb(78,78,78);
+background: linear-gradient(353deg, rgba(78,78,78,1) 0%, rgba(60,65,70,1) 70%, rgba(51,63,73,1) 100%, rgba(0,212,255,1) 100%);
+    color: #fff;
+opacity:0.95;
+}
+
+.cajamuerte{
+    background-color: rgb(138, 26, 13);
+    color: #ffffff;
+  opacity:0.95;
+}
+
+.cajajoin{
+    background-color: rgb(74, 166, 126);
+    color: #ffffff;
+  opacity:0.95;
+}
+
+.cajaleft{
+    background-color: rgb(124, 124,124);
+    color: #ffffff;
+  opacity:0.95;
+}
+
+.cajaamarilla{
+    background-color: rgb(181, 149, 60);
+    color: #ffffff;
+opacity:0.95;
+}
+
+.cajavioleta{
+    background-color: rgb(165, 86, 178);
+    color: #ffffff;
+opacity:0.95;
+}
